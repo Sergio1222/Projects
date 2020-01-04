@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Game</title>
+    <style>
+      body{
+        width:calc( 100vw - (100vw - 100%));
+        height: calc( 100vh - (100vh - 100%));
+        margin:0;
+      }
+      .canvas {  
+        background: yellow;
+        display: flex;
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button class = "start_button" > Start </button>
+      <button class = "stop_button" > Stop </button>
+      <span> Score: <span class="score"> 0 </span> </span>
+    </div>
+    <canvas width="800px" height="600px"  class = "canvas"></canvas>
+    <script sync type="text/javascript" src="main.js"></script>
+  </body>
+</html>

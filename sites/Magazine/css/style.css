@@ -1,0 +1,314 @@
+
+body {
+	font: 13px/1.4 Arial, Verdana, Tahoma, sans-serif;
+	background: url(../images/main_bg.jpg);
+	color: #5e5e5e;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin: 7px 0 13px 0;
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 1.1;
+	margin-bottom: 6px;
+}
+
+li {
+	list-style-type: none;
+}
+
+#logo {
+	width: 241px;
+	height: 46px;
+	float: left;
+	margin-top: 44px;
+	margin-bottom: 42px;
+	margin-left: 10px;
+}
+
+#banner {
+	width: 468px;
+	height: 60px;
+	float: right;
+	margin-top: 34px;
+	margin-right: 10px;
+}
+
+#top-menu {
+	height: 49px;
+	background: url(../images/top_menu_bg.png) repeat-x;
+	min-width: 960px;
+}
+
+#header, #inner-menu, #wrapper, #bottom-content {
+	min-width: 960px;
+	max-width: 1200px;
+	margin:auto 0;
+}
+
+#inner-menu ul li {
+	float: left;
+	text-transform: uppercase;
+}
+
+#inner-menu a {
+	color: #ebebeb;
+	font-size: 12px;
+	padding: 16px 15px;
+	display: block;
+}
+
+#inner-menu a:hover {
+	background: url(../images/menu_hover.png) repeat-x;
+	text-decoration: none;
+}
+
+#sidebar {
+	width: 300px;
+	float: right;
+	padding-right: 10px;
+}
+
+#content {
+	margin-right: 310px;
+	padding: 15px 38px 0 10px;
+}
+
+.post {
+	border-bottom: 1px dashed #e5e5e5;
+	margin-top: 15px;
+}
+
+.thumbnail {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.thumbnail img {
+	border: 3px solid #e0e0e0;
+}
+
+.post-content {
+	margin-left: 180px;
+}
+
+.post-categories, .post-published {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #aaaaaa;
+	margin: 0 0 3px 0;
+}
+
+#sidebar form {
+	width: 220px;
+	margin: 0 auto;
+}
+
+#sidebar h3 {
+	font-size: 15px;
+	color: #999999;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: url(../images/sidebar_h3_bg.png) repeat-x 0 5px;
+	padding-left: 22px;
+	margin-top: 26px;
+	margin-bottom: 25px;
+}
+
+#sidebar h3 span {
+	background: url(../images/main_bg.jpg);
+	padding: 0 6px;
+}
+
+.text-field {
+	width: 140px;
+	height: 31px;
+	background: url(../images/input_bg.png) no-repeat;
+	float: left;
+}
+
+.text-field input {
+	background: none;
+	border: none;
+	font-size: 12px;
+	color: #b1b1b1;
+	padding: 8px 10px;
+	width: 120px;
+	height: 15px;
+	outline: 0;
+}
+
+.first-row, .second-row {
+	width: 270px;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+	display: block;
+}
+
+.right {
+	float: right;
+	display: block;
+}
+
+.second-row {
+	margin-top: 14px;
+}
+
+#categories ul {
+	width: 110px;
+}
+
+#categories ul li {
+	border-top: 1px dashed #e3e3e3;
+	padding: 9px 0;
+}
+
+#categories ul li:first-child {
+	border: none;
+}
+
+#categories ul li a {
+	font-weight: bold;
+}
+
+#categories h3 {
+	margin-bottom: 14px;
+}
+
+#pagination {
+	margin: 34px 0;
+}
+
+#pagination ul {
+	overflow: hidden;
+}
+
+#pagination ul li {
+	float: left;
+	margin-right: 2px;
+}
+
+#pagination ul li a {
+	display: block;
+	padding: 9px 14px 6px 14px;
+	border-bottom: 3px solid #cccccc;
+}
+
+#pagination ul li a:hover {
+	text-decoration: none;
+	background: #e7e7e7;
+}
+
+#pagination .current, #pagination .current:hover {
+	background: #333333;
+	color: #ffffff;
+	border: none;
+	padding-bottom: 9px;
+}
+
+
+#pagination .next {
+	padding-bottom: 8px;
+	padding-top: 7px;
+}
+
+#middle-content {
+	max-width: 1200px;
+	min-width: 960px;
+}
+
+#footer {
+	width: 1412px;
+	color: #e0e0e0;
+}
+
+#magazine {
+	background: url(../images/logo_footer.png) no-repeat 10px 0;
+	padding: 37px 0 0 10px;
+}
+
+#magazine {
+	margin: 16px 0;
+}
+
+#footer-top {
+	height: 19px;
+	background: url(../images/footer_top_bg.png) repeat-x;
+}
+
+#middle-content {
+	padding-bottom: 60px;
+}
+
+#footer-middle {
+	background: url(../images/footer_middle_bg.png);
+}
+
+.footer-box {
+	padding-top: 55px;
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+#footer-box {
+	margin-right: 0;
+}
+
+#footer h3 {
+	background: url(../images/footer_h3_bg.png) repeat-x 0 5px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	width: 220px;
+	margin-bottom: 8px;
+}
+
+#footer h3 span {
+	background: url(../images/footer_middle_bg.png);
+	padding-right: 13px;
+}
+
+#recent-posts ul li, #archives ul li {
+	padding: 12px 0;
+	background: url(../images/dashed_bg.png) repeat-x left bottom;
+}
+
+#recent-posts ul li a, #archives ul li a {
+	color: #e0e0e0;
+}
+
+#archives {
+	padding-right: 10px;
+}
+
+#footer-bottom {
+	background: url(../images/footer_bottom_bg.png) repeat-x;
+}
+
+#footer-bottom p {
+	margin: 0;
+	padding: 25px 10px;
+}
+
+#footer-bottom a {
+	color: #8f8f8f;
+}
